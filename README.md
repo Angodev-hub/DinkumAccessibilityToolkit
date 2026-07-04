@@ -1,12 +1,32 @@
 # Dinkum Accessibility Toolkit (DAT)
 
-Dinkum Accessibility Toolkit (DAT) is an open-source accessibility mod for Dinkum.
+DAT is an open-source accessibility framework for Dinkum.
 
-## Goals
+Its objective is simple:
 
-- Improve visual accessibility.
-- Highlight insects, fish and other difficult-to-see objects.
-- Keep the experience immersive.
-- Make every feature optional and configurable.
+> Make Dinkum more accessible without changing its gameplay.
 
-> Work in progress.
+The project initially focuses on improving the visibility of insects, fish and other difficult-to-spot world objects.
+
+Every feature is optional and configurable.
+
+## Philosophy
+
+DAT is **not** a cheat.
+
+It does not reveal hidden information.
+
+Instead, it enhances the perception of information that is already available to the player.
+
+## Planned features
+
+- Insect highlighting
+- Fish highlighting
+- Dig spot highlighting
+- Accessibility presets
+- Colorblind-friendly rendering
+- Optional audio cues
+
+## Status
+
+Early development.
