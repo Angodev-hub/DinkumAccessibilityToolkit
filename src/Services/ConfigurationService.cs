@@ -1,9 +1,14 @@
-﻿namespace DinkumAccessibilityToolkit.Services;
+﻿using DinkumAccessibilityToolkit.Models.Configuration;
 
-internal static class ConfigurationService
+namespace DinkumAccessibilityToolkit.Services;
+
+/// <summary>
+/// Provides centralized access to the framework configuration.
+/// </summary>
+internal sealed class ConfigurationService
 {
-    internal static bool IsReady()
-    {
-        return true;
-    }
+    /// <summary>
+    /// Gets the current DAT configuration.
+    /// </summary>
+    internal DatConfiguration Configuration { get; } = new();
 }
