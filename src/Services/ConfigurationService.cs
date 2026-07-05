@@ -1,4 +1,5 @@
-﻿using DinkumAccessibilityToolkit.Models.Configuration;
+﻿using BepInEx.Configuration;
+using DinkumAccessibilityToolkit.Models.Configuration;
 
 namespace DinkumAccessibilityToolkit.Services;
 
@@ -7,8 +8,12 @@ namespace DinkumAccessibilityToolkit.Services;
 /// </summary>
 internal sealed class ConfigurationService
 {
-    /// <summary>
-    /// Gets the current DAT configuration.
-    /// </summary>
+    private readonly ConfigFile _configFile;
+
     internal DatConfiguration Configuration { get; } = new();
+
+    internal ConfigurationService(ConfigFile configFile)
+    {
+        _configFile = configFile;
+    }
 }
