@@ -6,7 +6,7 @@ namespace DinkumAccessibilityToolkit.Kernel;
 /// <summary>
 /// Orchestre le cycle de vie des composants du framework.
 /// </summary>
-internal sealed class Kernel
+internal sealed class DatKernel
 {
     private readonly List<IKernelComponent> _components = new();
 

@@ -11,5 +11,8 @@ internal static class PluginStartup
         LoggingService.Info($"{PluginInfo.Name} {PluginInfo.Version} loaded.");
 
         LoggingService.Info($"Game ready: {GameService.IsReady()}");
+
+        plugin.Kernel.Start();
     }
+
 }
